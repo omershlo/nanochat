@@ -11,7 +11,7 @@ For questions about the repo, I recommend either using [DeepWiki](https://deepwi
 
 Presently, the main focus of development is on tuning the pretraining stage, which takes the most amount of compute. Inspired by the modded-nanogpt repo and to incentivise progress and community collaboration, nanochat maintains a leaderboard for a "GPT-2 speedrun", which is the wall-clock time required to train a nanochat model to GPT-2 grade capability, as measured by the DCLM CORE score. The [runs/speedrun.sh](runs/speedrun.sh) script always reflects the reference way to train GPT-2 grade model and talk to it. The current leaderboard looks as follows:
 
-|| # | time | val_bpb | CORE | Description | Date | Commit | Contributors |
+| # | time | val_bpb | CORE | Description | Date | Commit | Contributors |
 |---|------|---------|------|-------------|------|--------|--------------|
 | 0 | 168 hours | - | 0.2565 | Original OpenAI GPT-2 checkpoint | 2019 | - | OpenAI |
 | 1 | 3.04 | 0.74833 | 0.2585 | d24 baseline, slightly overtrained | Jan 29 2026 | 348fbb3 | @karpathy |
